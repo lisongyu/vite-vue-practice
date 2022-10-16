@@ -31,8 +31,18 @@ const count = ref(0)
   <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
 </template>
 
+
 <style scoped>
 .read-the-docs {
-  color: #888;
+  color: #000;
 }
+</style>
+
+
+<style lang="scss" scoped>
+ .read-the-docs{
+  color:$theme-color;
+  // background-image:url('@assets/vue.svg') ;
+ }
+  
 </style>
